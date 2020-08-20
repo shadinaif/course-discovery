@@ -1,5 +1,5 @@
-# Stay on an LTS release
-django<2.3
+# This file contains all common constraints for edx-repos
+-c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
 
 # FIXME: 1.x is an ancient version that we should upgrade off of
 elasticsearch<2
