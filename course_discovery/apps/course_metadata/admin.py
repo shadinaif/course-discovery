@@ -530,7 +530,7 @@ for model in (Image, ExpectedLearningItem, SyllabusItem, PersonSocialNetwork, Jo
               DeletePersonDupsConfig, DrupalPublishUuidConfig, MigrateCommentsToSalesforce,
               MigratePublisherToCourseMetadataConfig, ProfileImageDownloadConfig, PersonAreaOfExpertise,
               TagCourseUuidsConfig, BackpopulateCourseTypeConfig, RemoveRedirectsConfig, BulkModifyProgramHookConfig,
-              BackfillCourseRunSlugsConfig):
+              BackfillCourseRunSlugsConfig, BulkUpdateImagesConfig):
     admin.site.register(model)
 
 
